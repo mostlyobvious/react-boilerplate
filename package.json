@@ -1,3 +1,142 @@
 {
-  "private": "true"
+  "private": "true",
+  "eslintConfig": {
+    "extends": "airbnb",
+    "parser": "babel-eslint",
+    "env": {
+      "browser": true,
+      "es6": true,
+      "commonjs": true
+    },
+    "rules": {
+      "arrow-body-style": [
+        0
+      ],
+      "brace-style": [
+        0
+      ],
+      "camelcase": [
+        0
+      ],
+      "comma-dangle": [
+        0
+      ],
+      "comma-spacing": [
+        0
+      ],
+      "consistent-return": [
+        1
+      ],
+      "dot-notation": [
+        1
+      ],
+      "eqeqeq": [
+        0
+      ],
+      "indent": [
+        0
+      ],
+      "jsx-quotes": [
+        0
+      ],
+      "key-spacing": [
+        0
+      ],
+      "keyword-spacing": [
+        0
+      ],
+      "max-len": [
+        0
+      ],
+      "new-cap": [
+        1
+      ],
+      "no-comma-dangle": [
+        0
+      ],
+      "no-multi-spaces": [
+        0
+      ],
+      "no-multiple-empty-lines": [
+        1
+      ],
+      "no-param-reassign": [
+        1
+      ],
+      "object-curly-spacing": [
+        0
+      ],
+      "object-shorthand": [
+        1,
+        "always"
+      ],
+      "padded-blocks": [
+        0
+      ],
+      "prefer-const": [
+        1
+      ],
+      "prefer-template": [
+        1
+      ],
+      "quote-props": [
+        0
+      ],
+      "quotes": [
+        0
+      ],
+      "react/jsx-boolean-value": [
+        1
+      ],
+      "react/jsx-closing-bracket-location": [
+        0
+      ],
+      "react/jsx-indent-props": [
+        0
+      ],
+      "react/jsx-no-bind": [
+        0
+      ],
+      "react/jsx-space-before-closing": [
+        0
+      ],
+      "react/prefer-es6-class": [
+        0
+      ],
+      "react/prefer-stateless-function": [
+        1
+      ],
+      "react/prop-types": [
+        0
+      ],
+      "react/sort-comp": [
+        0
+      ],
+      "react/wrap-multilines": [
+        1
+      ],
+      "space-before-blocks": [
+        0
+      ],
+      "space-before-function-paren": [
+        0
+      ],
+      "space-in-brackets": [
+        0
+      ],
+      "default-case": [
+        0
+      ],
+      "no-unused-vars": [
+        2
+      ]
+    }
+  },
+  "devDependencies": {
+    "eslint": "2.9.0",
+    "eslint-config-airbnb": "9.0.1",
+    "eslint-plugin-import": "1.11.1",
+    "eslint-plugin-jsx-a11y": "1.2.0",
+    "eslint-plugin-react": "5.2.2"
+  }
 }

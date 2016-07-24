@@ -1,3 +1,3 @@
 # Rails Event Store Browser
 
-    npm install
+See `package.json` scripts sections for command line reference.

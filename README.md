@@ -1,4 +1,4 @@
-# Rails Event Store Browser
+# React Bolierplate
 
 When in doubt, type:
 

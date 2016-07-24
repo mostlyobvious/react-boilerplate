@@ -21,7 +21,7 @@ config.module  =
   };
 config.plugins =
   [ new webpack.DefinePlugin({ 'process.env.NODE_ENV': JSON.stringify('development') }),
-    new HtmlWebpackPlugin(),
+    new HtmlWebpackPlugin({ template: './src/index.html' }),
   ];
 config.devServer = { contentBase: './public' };
 
